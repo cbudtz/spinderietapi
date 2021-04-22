@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "frontpages",
+  "info": {
+    "name": "frontpage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "block.jumbo",
+        "block.col2"
+      ]
+    }
+  }
+}

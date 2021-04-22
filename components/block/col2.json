@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_block_col2s",
+  "info": {
+    "name": "col2",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "richtext"
+    },
+    "right": {
+      "type": "richtext"
+    },
+    "big": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    }
+  }
+}
