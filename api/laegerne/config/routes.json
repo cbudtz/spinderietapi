@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/laegerne",
+      "handler": "laegerne.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/laegerne",
+      "handler": "laegerne.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/laegerne",
+      "handler": "laegerne.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
