@@ -15,7 +15,8 @@
       "type": "dynamiczone",
       "components": [
         "block.jumbo",
-        "block.col2"
+        "block.col2",
+        "block.fullwidth"
       ]
     }
   }
