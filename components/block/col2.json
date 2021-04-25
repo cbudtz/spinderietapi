@@ -20,6 +20,12 @@
         "right"
       ],
       "default": "left"
+    },
+    "lefttitle": {
+      "type": "string"
+    },
+    "righttitle": {
+      "type": "string"
     }
   }
 }
