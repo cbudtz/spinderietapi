@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/oevelser",
+      "handler": "oevelser.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/oevelser",
+      "handler": "oevelser.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/oevelser",
+      "handler": "oevelser.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

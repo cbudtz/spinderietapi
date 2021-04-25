@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vagtring",
+      "handler": "vagtring.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vagtring",
+      "handler": "vagtring.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vagtring",
+      "handler": "vagtring.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/speciallaeger",
+      "handler": "speciallaeger.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/speciallaeger",
+      "handler": "speciallaeger.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/speciallaeger",
+      "handler": "speciallaeger.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

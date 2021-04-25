@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/problemer",
+      "handler": "problemer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/problemer",
+      "handler": "problemer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/problemer",
+      "handler": "problemer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

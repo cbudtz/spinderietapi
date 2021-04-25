@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/priserpatient",
+      "handler": "priserpatient.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/priserpatient",
+      "handler": "priserpatient.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/priserpatient",
+      "handler": "priserpatient.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

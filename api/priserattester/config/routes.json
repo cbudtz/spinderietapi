@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/priserattester",
+      "handler": "priserattester.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/priserattester",
+      "handler": "priserattester.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/priserattester",
+      "handler": "priserattester.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

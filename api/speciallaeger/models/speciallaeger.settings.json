@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "speciallaegers",
+  "info": {
+    "name": "Speciallaeger"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "block.col2",
+        "block.fullwidth",
+        "block.jumbo"
+      ]
+    }
+  }
+}

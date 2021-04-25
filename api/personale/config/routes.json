@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/personale",
+      "handler": "personale.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/personale",
+      "handler": "personale.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/personale",
+      "handler": "personale.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
