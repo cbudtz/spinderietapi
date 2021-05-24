@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_tables",
+  "info": {
+    "name": "table",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "headers": {
+      "type": "richtext"
+    },
+    "striped": {
+      "type": "boolean"
+    },
+    "compact": {
+      "type": "boolean"
+    },
+    "responsive": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg",
+        "xl"
+      ]
+    }
+  }
+}
