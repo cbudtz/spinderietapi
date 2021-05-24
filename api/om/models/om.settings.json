@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "oms",
+  "info": {
+    "name": "om",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "block.col2",
+        "block.fullwidth",
+        "block.jumbo"
+      ]
+    }
+  }
+}
