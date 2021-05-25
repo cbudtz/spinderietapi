@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "personales",
   "info": {
-    "name": "Personale"
+    "name": "Personale",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,8 @@
       "components": [
         "block.col2",
         "block.fullwidth",
-        "block.jumbo"
+        "block.jumbo",
+        "block.table"
       ]
     }
   }

@@ -16,7 +16,8 @@
       "components": [
         "block.jumbo",
         "block.col2",
-        "block.fullwidth"
+        "block.fullwidth",
+        "block.table"
       ]
     }
   }
